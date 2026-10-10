@@ -18,6 +18,9 @@ env:
 
   # Remove associated nightly git tag
   CLEAR_TAG: 'true'
+permissions:
+  contents: write
+
 jobs:
   clean:
     name: Prune nightly releases
